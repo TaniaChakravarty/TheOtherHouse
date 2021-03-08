@@ -19,11 +19,27 @@ body{
 }
 .bottle{
 	position: absolute;
-	top: 10px;
+	top: 20px;
 	left: 750px;
 }
 .cactus{
 	position: absolute;
-	top: 79px;
+	top: 88px;
 	left: 800px;
+}
+.soap{
+	position: absolute;
+	top: 68%;
+	right: 10%;
+}
+.topbub{
+	position: absolute;
+	top: 68%;
+	right: 10%;
+	opacity: 1;
+}
+.topbub:hover{
+	opacity: 0.0;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
 }
